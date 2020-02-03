@@ -15,7 +15,7 @@ namespace AmazonPay.Responses
         private string parentKey;
         private Dictionary<string, List<Constants.URLEventTypes>> notificationsUrls = new Dictionary<string, List<Constants.URLEventTypes>>();
         private string notificationUrl;
-        private string requestId;
+        
         /// <summary>
         /// Get the GetMerchantNotificationConfigurationResponse
         /// </summary>
